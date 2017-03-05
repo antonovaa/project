@@ -1,0 +1,38 @@
+﻿  Parsing headers for WorkEditor
+    Running UnrealHeaderTool "G:\Unreal\Work\Work.uproject" "G:\Unreal\Work\Intermediate\Build\Win64\WorkEditor\Development\WorkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for WorkEditor in 3,5105153 seconds
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-1081.dll".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-1081.pdb".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-2293.dll".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-2293.pdb".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-5231.dll".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-5231.pdb".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-5840.dll".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-5840.pdb".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-6693.dll".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-6693.pdb".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-7228.dll".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-7228.pdb".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-7645.dll".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-7645.pdb".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-810.dll".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-810.pdb".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-864.dll".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-864.pdb".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-9060.dll".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-9060.pdb".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-914.dll".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-914.pdb".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-9379.dll".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-9379.pdb".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-939.dll".
+  Deleting old hot reload file: "G:\Unreal\Work\Binaries\Win64\UE4Editor-Work-939.pdb".
+  Performing 4 actions (4 in parallel)
+  MyGameMode.cpp
+  Work.generated.cpp
+  [3/4] Link UE4Editor-Work.dll
+  [4/4] Link UE4Editor-Work.lib
+     ╤ючфрхЄё  сшсышюЄхър G:\Unreal\Work\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Work.lib ш юс·хъЄ G:\Unreal\Work\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Work.exp
+     ╤ючфрхЄё  сшсышюЄхър G:\Unreal\Work\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Work.suppressed.lib ш юс·хъЄ G:\Unreal\Work\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Work.suppressed.exp
+  Deploying WorkEditor Win64 Development...
+  Total build time: 6,27 seconds (Local executor: 2,34 seconds)

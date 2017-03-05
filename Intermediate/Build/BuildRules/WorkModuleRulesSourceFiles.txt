@@ -1,0 +1,3 @@
+G:\Unreal\Work\Source\Work\Work.Build.cs
+G:\Unreal\Work\Source\Work.Target.cs
+G:\Unreal\Work\Source\WorkEditor.Target.cs

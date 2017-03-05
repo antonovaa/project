@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Work.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{6F5B9C59-F40E-450B-BFB8-E99CC50EC1E8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Work.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\WorkEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B9FA7000-79BB-4BDF-8338-13B538707873}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Work">
+      <UniqueIdentifier>{36231645-DEE7-4952-A0BA-E9DAB5EECDBC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Work\Work.Build.cs">
+      <Filter>Source\Work</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Work\Work.cpp">
+      <Filter>Source\Work</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Work\Work.h">
+      <Filter>Source\Work</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Work\WorkGameModeBase.cpp">
+      <Filter>Source\Work</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Work\WorkGameModeBase.h">
+      <Filter>Source\Work</Filter>
+    </ClInclude>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Work\MyGameMode.h">
+      <Filter>Source\Work</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Work\MyMasClass.h">
+      <Filter>Source\Work</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Work\MyGameMode.cpp">
+      <Filter>Source\Work</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Work\MyMasClass.cpp">
+      <Filter>Source\Work</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

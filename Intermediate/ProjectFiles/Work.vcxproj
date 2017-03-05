@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugGame_Game|Win32">
+      <Configuration>DebugGame_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Game|x64">
+      <Configuration>DebugGame_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|Win32">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|x64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame_Game|Win32">
+      <Configuration>IOS_DebugGame_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame_Game|x64">
+      <Configuration>IOS_DebugGame_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame_Editor|Win32">
+      <Configuration>IOS_DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame_Editor|x64">
+      <Configuration>IOS_DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_DebugGame_Game|Win32">
+      <Configuration>HTML5_DebugGame_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_DebugGame_Game|x64">
+      <Configuration>HTML5_DebugGame_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_DebugGame_Editor|Win32">
+      <Configuration>HTML5_DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_DebugGame_Editor|x64">
+      <Configuration>HTML5_DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Game|Win32">
+      <Configuration>Development_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Game|x64">
+      <Configuration>Development_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|Win32">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|x64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development_Game|Win32">
+      <Configuration>IOS_Development_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development_Game|x64">
+      <Configuration>IOS_Development_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development_Editor|Win32">
+      <Configuration>IOS_Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development_Editor|x64">
+      <Configuration>IOS_Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Development_Game|Win32">
+      <Configuration>HTML5_Development_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Development_Game|x64">
+      <Configuration>HTML5_Development_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Development_Editor|Win32">
+      <Configuration>HTML5_Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Development_Editor|x64">
+      <Configuration>HTML5_Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Game|Win32">
+      <Configuration>Shipping_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Game|x64">
+      <Configuration>Shipping_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Shipping_Game|Win32">
+      <Configuration>IOS_Shipping_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Shipping_Game|x64">
+      <Configuration>IOS_Shipping_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Shipping_Game|Win32">
+      <Configuration>HTML5_Shipping_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="HTML5_Shipping_Game|x64">
+      <Configuration>HTML5_Shipping_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D842C129-7EB7-461C-9E56-6C973247B973}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>Work</RootNamespace>
+    <PlatformToolset>v140</PlatformToolset>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" Work Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" Work Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" Work Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\Work-Win32-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'">
+    <OutDir>g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>@echo Win32 is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>@echo Win32 is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>@echo Win32 is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+    <NMakeOutput />
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" Work Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" Work Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" Work Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Work-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" WorkEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" WorkEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" WorkEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>g:\Epic Games\UE_4.15\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" Work IOS DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" Work IOS DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" Work IOS DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\Work-IOS-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'">
+    <OutDir>g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>@echo IOS is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>@echo IOS is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>@echo IOS is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+    <NMakeOutput />
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" Work HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" Work HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" Work HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HTML5\Work-HTML5-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'">
+    <OutDir>g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>@echo HTML5 is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>@echo HTML5 is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>@echo HTML5 is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+    <NMakeOutput />
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" Work Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" Work Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" Work Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\Work.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'">
+    <OutDir>g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>@echo Win32 is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>@echo Win32 is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>@echo Win32 is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+    <NMakeOutput />
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" Work Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" Work Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" Work Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Work.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" WorkEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" WorkEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" WorkEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>g:\Epic Games\UE_4.15\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" Work IOS Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" Work IOS Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" Work IOS Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\Work</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'">
+    <OutDir>g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>@echo IOS is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>@echo IOS is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>@echo IOS is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+    <NMakeOutput />
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" Work HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" Work HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" Work HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HTML5\Work.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'">
+    <OutDir>g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>@echo HTML5 is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>@echo HTML5 is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>@echo HTML5 is not a supported platform for WorkEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+    <NMakeOutput />
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" Work Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" Work Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" Work Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\Work-Win32-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" Work Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" Work Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" Work Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Work-Win64-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" Work IOS Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" Work IOS Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" Work IOS Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\Work-IOS-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" Work HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat" Work HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"g:\Epic Games\UE_4.15\Engine\Build\BatchFiles\Clean.bat" Work HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HTML5\Work-HTML5-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Work\MyMasClass.cpp" />
+    <ClInclude Include="..\..\Source\Work\MyMasClass.h" />
+    <None Include="..\..\Work.uproject" />
+    <None Include="..\..\Source\Work.Target.cs" />
+    <None Include="..\..\Source\WorkEditor.Target.cs" />
+    <None Include="..\..\Config\DefaultEditor.ini" />
+    <None Include="..\..\Config\DefaultEngine.ini" />
+    <None Include="..\..\Config\DefaultGame.ini" />
+    <None Include="..\..\Source\Work\Work.Build.cs" />
+    <ClCompile Include="..\..\Source\Work\MyGameMode.cpp" />
+    <ClCompile Include="..\..\Source\Work\Work.cpp" />
+    <ClInclude Include="..\..\Source\Work\MyGameMode.h" />
+    <ClInclude Include="..\..\Source\Work\Work.h" />
+    <ClCompile Include="..\..\Source\Work\WorkGameModeBase.cpp" />
+    <ClInclude Include="..\..\Source\Work\WorkGameModeBase.h" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <PropertyGroup>
+    <SourcePath>g:\Epic Games\UE_4.15\Engine\Source\Developer\TreeMap;g:\Epic Games\UE_4.15\Engine\Source\Developer\AITestSuite\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\AITestSuite\Private\Actions;g:\Epic Games\UE_4.15\Engine\Source\Developer\AITestSuite\Private\BehaviorTree;g:\Epic Games\UE_4.15\Engine\Source\Developer\AITestSuite\Private\MockAI;g:\Epic Games\UE_4.15\Engine\Source\Developer\AITestSuite\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Developer\AllDesktopTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Android\AndroidDeviceDetection\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Android\AndroidPlatformEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Android\AndroidTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Android\Android_ASTCTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Android\Android_ATCTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Android\Android_DXTTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Android\Android_ETC1TargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Android\Android_ETC2TargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Android\Android_MultiTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Android\Android_PVRTCTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Apple\MetalShaderFormat\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\AssetTools\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\AssetTools\Private\AssetTypeActions;g:\Epic Games\UE_4.15\Engine\Source\Developer\AudioFormatADPCM\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\AudioFormatOgg\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\AudioFormatOpus\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\AutomationController\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\AutomationDriver\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\AutomationDriver\Private\Locators;g:\Epic Games\UE_4.15\Engine\Source\Developer\AutomationDriver\Private\Specs;g:\Epic Games\UE_4.15\Engine\Source\Developer\AutomationWindow\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\BlankModule\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\BlueprintCompilerCppBackend\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\BlueprintNativeCodeGen\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\BlueprintProfiler\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\CollectionManager\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\CollisionAnalyzer\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\CrashDebugHelper\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\CrashDebugHelper\Private\Linux;g:\Epic Games\UE_4.15\Engine\Source\Developer\CrashDebugHelper\Private\Mac;g:\Epic Games\UE_4.15\Engine\Source\Developer\CrashDebugHelper\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Developer\CrashTracker\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\DerivedDataCache\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\DesktopPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\DesktopPlatform\Private\Linux;g:\Epic Games\UE_4.15\Engine\Source\Developer\DesktopPlatform\Private\Mac;g:\Epic Games\UE_4.15\Engine\Source\Developer\DesktopPlatform\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Developer\DesktopWidgets\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\DesktopWidgets\Private\Widgets\Input;g:\Epic Games\UE_4.15\Engine\Source\Developer\DeviceManager\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\DeviceManager\Private\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Developer\DeviceManager\Private\Widgets\Apps;g:\Epic Games\UE_4.15\Engine\Source\Developer\DeviceManager\Private\Widgets\Browser;g:\Epic Games\UE_4.15\Engine\Source\Developer\DeviceManager\Private\Widgets\Details;g:\Epic Games\UE_4.15\Engine\Source\Developer\DeviceManager\Private\Widgets\Processes;g:\Epic Games\UE_4.15\Engine\Source\Developer\DeviceManager\Private\Widgets\Toolbar;g:\Epic Games\UE_4.15\Engine\Source\Developer\DirectoryWatcher\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\DirectoryWatcher\Private\Linux;g:\Epic Games\UE_4.15\Engine\Source\Developer\DirectoryWatcher\Private\Mac;g:\Epic Games\UE_4.15\Engine\Source\Developer\DirectoryWatcher\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Developer\DirectoryWatcher\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Developer\ExternalImagePicker\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\FunctionalTesting\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\FunctionalTesting\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Developer\GameplayDebugger\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\GameplayDebugger\Private\Editor;g:\Epic Games\UE_4.15\Engine\Source\Developer\GammaUI\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\HierarchicalLODUtilities\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\HotReload\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\HTML5\HTML5PlatformEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\HTML5\HTML5TargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\InternationalizationSettings\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\iOS\IOSPlatformEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\iOS\IOSTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\iOS\IOSTargetPlatform\Private\Mac;g:\Epic Games\UE_4.15\Engine\Source\Developer\iOS\IOSTargetPlatform\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Developer\iOS\TVOSTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\LauncherServices\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\LauncherServices\Private\Launcher;g:\Epic Games\UE_4.15\Engine\Source\Developer\LauncherServices\Private\Profiles;g:\Epic Games\UE_4.15\Engine\Source\Developer\Linux\LinuxClientTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Linux\LinuxNoEditorTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Linux\LinuxServerTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Linux\LinuxTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\LocalizationService\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\LogVisualizer\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Mac\MacClientTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Mac\MacNoEditorTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Mac\MacServerTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Mac\MacTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\MaterialUtilities\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Merge\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\MeshBoneReduction\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\MeshSimplifier\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\MeshUtilities\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\MessageLog\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\MessageLog\Private\Model;g:\Epic Games\UE_4.15\Engine\Source\Developer\MessageLog\Private\Presentation;g:\Epic Games\UE_4.15\Engine\Source\Developer\MessageLog\Private\UserInterface;g:\Epic Games\UE_4.15\Engine\Source\Developer\ModuleUI\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\OutputLog\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\PackageDependencyInfo\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Profiler\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Profiler\Private\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProfilerClient\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProfilerMessages\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProfilerService\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProjectLauncher\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProjectLauncher\Private\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Archive;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Build;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Cook;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Deploy;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Launch;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Package;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Profile;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Project;g:\Epic Games\UE_4.15\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Shared;g:\Epic Games\UE_4.15\Engine\Source\Developer\RawMesh\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\RealtimeProfiler\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\ScreenShotComparison\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\ScreenShotComparison\Private\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Developer\ScreenShotComparisonTools\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\SessionFrontend\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\SessionFrontend\Private\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Developer\SessionFrontend\Private\Widgets\Browser;g:\Epic Games\UE_4.15\Engine\Source\Developer\SessionFrontend\Private\Widgets\Console;g:\Epic Games\UE_4.15\Engine\Source\Developer\Settings\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\SettingsEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\SettingsEditor\Private\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Developer\ShaderCompilerCommon\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\ShaderFormatOpenGL\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\ShaderPreprocessor\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\SharedSettingsWidgets\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\SimplygonMeshReduction\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\SimplygonSwarm\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\SlackIntegrations\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\SlateFileDialogs\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\SlateReflector\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\SlateReflector\Private\Models;g:\Epic Games\UE_4.15\Engine\Source\Developer\SlateReflector\Private\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Developer\SourceCodeAccess\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\SourceControl\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\StandaloneRenderer\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\StandaloneRenderer\Private\ios;g:\Epic Games\UE_4.15\Engine\Source\Developer\StandaloneRenderer\Private\OpenGL;g:\Epic Games\UE_4.15\Engine\Source\Developer\StandaloneRenderer\Private\Linux\OpenGL;g:\Epic Games\UE_4.15\Engine\Source\Developer\StandaloneRenderer\Private\Mac\OpenGL;g:\Epic Games\UE_4.15\Engine\Source\Developer\StandaloneRenderer\Private\Windows\D3D;g:\Epic Games\UE_4.15\Engine\Source\Developer\StandaloneRenderer\Private\Windows\OpenGL;g:\Epic Games\UE_4.15\Engine\Source\Developer\SuperSearch\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\TargetDeviceServices\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\TargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\TaskGraph\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\TextureCompressor\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\TextureFormatAndroid\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\TextureFormatASTC\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\TextureFormatDXT\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\TextureFormatIntelISPCTexComp\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\TextureFormatPVR\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\TextureFormatUncompressed\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\UnrealCodeAnalyzerTests\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\VulkanShaderFormat\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Windows\ShaderFormatD3D\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Windows\WindowsClientTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Windows\WindowsNoEditorTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Windows\WindowsServerTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Developer\Windows\WindowsTargetPlatform\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\EditorLiveStreaming;g:\Epic Games\UE_4.15\Engine\Source\Editor\SizeMap;g:\Epic Games\UE_4.15\Engine\Source\Editor\UATHelper;g:\Epic Games\UE_4.15\Engine\Source\Editor\ViewportInteraction;g:\Epic Games\UE_4.15\Engine\Source\Editor\VREditor;g:\Epic Games\UE_4.15\Engine\Source\Editor\ActorPickerMode\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\AddContentDialog\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\AddContentDialog\Private\ViewModels;g:\Epic Games\UE_4.15\Engine\Source\Editor\AddContentDialog\Private\ContentSourceProviders\FeaturePack;g:\Epic Games\UE_4.15\Engine\Source\Editor\AIGraph\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\AnimationBlueprintEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\AnimationEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\AnimGraph\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\AnimGraph\Private\EditModes;g:\Epic Games\UE_4.15\Engine\Source\Editor\AudioEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\AudioEditor\Private\AssetTypeActions;g:\Epic Games\UE_4.15\Engine\Source\Editor\AudioEditor\Private\Factories;g:\Epic Games\UE_4.15\Engine\Source\Editor\BehaviorTreeEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\BehaviorTreeEditor\Private\DetailCustomizations;g:\Epic Games\UE_4.15\Engine\Source\Editor\BlueprintGraph\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\Blutility\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\BspMode\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\Cascade\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\Cascade\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Editor\ClassViewer\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\ComponentVisualizers\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\ConfigEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\ConfigEditor\Private\PropertyVisualization;g:\Epic Games\UE_4.15\Engine\Source\Editor\ContentBrowser\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\CurveAssetEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\CurveTableEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\DataTableEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\DestructibleMeshEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\DetailCustomizations\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\DeviceProfileEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\DeviceProfileEditor\Private\DetailsPanel;g:\Epic Games\UE_4.15\Engine\Source\Editor\DeviceProfileServices\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\DistCurveEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\Documentation\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\EditorSettingsViewer\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\EditorStyle\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\EditorWidgets\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\EnvironmentQueryEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\EnvironmentQueryEditor\Private\DetailCustomizations;g:\Epic Games\UE_4.15\Engine\Source\Editor\FoliageEdit\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\FontEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\GameplayTasksEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\GameProjectGeneration\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\GameProjectGeneration\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Editor\GeometryCacheEd\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\GeometryMode\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\GraphEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\GraphEditor\Private\AnimationNodes;g:\Epic Games\UE_4.15\Engine\Source\Editor\GraphEditor\Private\AnimationPins;g:\Epic Games\UE_4.15\Engine\Source\Editor\GraphEditor\Private\AnimationStateNodes;g:\Epic Games\UE_4.15\Engine\Source\Editor\GraphEditor\Private\KismetNodes;g:\Epic Games\UE_4.15\Engine\Source\Editor\GraphEditor\Private\KismetPins;g:\Epic Games\UE_4.15\Engine\Source\Editor\GraphEditor\Private\MaterialNodes;g:\Epic Games\UE_4.15\Engine\Source\Editor\GraphEditor\Private\MaterialPins;g:\Epic Games\UE_4.15\Engine\Source\Editor\GraphEditor\Private\NiagaraPins;g:\Epic Games\UE_4.15\Engine\Source\Editor\HardwareTargeting\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\HierarchicalLODOutliner\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\InputBindingEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\InputBindingEditor\Private\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Editor\IntroTutorials\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\Kismet\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\Kismet\Private\Debugging;g:\Epic Games\UE_4.15\Engine\Source\Editor\Kismet\Private\Nodes;g:\Epic Games\UE_4.15\Engine\Source\Editor\Kismet\Private\Profiler;g:\Epic Games\UE_4.15\Engine\Source\Editor\Kismet\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Editor\Kismet\Private\WorkflowOrientedApp;g:\Epic Games\UE_4.15\Engine\Source\Editor\KismetCompiler\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\KismetWidgets\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\LandscapeEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\LandscapeEditor\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Editor\Layers\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\LevelEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\Localization\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\LocalizationDashboard\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\MainFrame\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\MainFrame\Private\Frame;g:\Epic Games\UE_4.15\Engine\Source\Editor\MainFrame\Private\Menus;g:\Epic Games\UE_4.15\Engine\Source\Editor\MaterialEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\MaterialEditor\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Editor\Matinee\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\MergeActors\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\MergeActors\Private\MeshMergingTool;g:\Epic Games\UE_4.15\Engine\Source\Editor\MergeActors\Private\MeshProxyTool;g:\Epic Games\UE_4.15\Engine\Source\Editor\MeshPaint\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\MovieSceneCaptureDialog\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\MovieSceneTools\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\MovieSceneTools\Private\CurveKeyAreas;g:\Epic Games\UE_4.15\Engine\Source\Editor\MovieSceneTools\Private\CurveKeyEditors;g:\Epic Games\UE_4.15\Engine\Source\Editor\MovieSceneTools\Private\Sections;g:\Epic Games\UE_4.15\Engine\Source\Editor\MovieSceneTools\Private\TrackEditors;g:\Epic Games\UE_4.15\Engine\Source\Editor\MovieSceneTools\Private\TrackEditorThumbnail;g:\Epic Games\UE_4.15\Engine\Source\Editor\MovieSceneTools\Private\TrackEditors\PropertyTrackEditors;g:\Epic Games\UE_4.15\Engine\Source\Editor\NewLevelDialog\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\NiagaraEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\NiagaraEditor\Private\AssetTypeActions;g:\Epic Games\UE_4.15\Engine\Source\Editor\PackagesDialog\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\Persona\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\Persona\Public;g:\Epic Games\UE_4.15\Engine\Source\Editor\Persona\Private\Customization;g:\Epic Games\UE_4.15\Engine\Source\Editor\Persona\Private\EditModes;g:\Epic Games\UE_4.15\Engine\Source\Editor\Persona\Private\Shared;g:\Epic Games\UE_4.15\Engine\Source\Editor\PhAT\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\PixelInspector\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\PlacementMode\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\PListEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\PluginWarden\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\ProjectSettingsViewer\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\ProjectTargetPlatformEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\ProjectTargetPlatformEditor\Private\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Editor\PropertyEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\PropertyEditor\Private\Presentation\PropertyEditor;g:\Epic Games\UE_4.15\Engine\Source\Editor\PropertyEditor\Private\Presentation\PropertyTable;g:\Epic Games\UE_4.15\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyDetails;g:\Epic Games\UE_4.15\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyEditor;g:\Epic Games\UE_4.15\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyTable;g:\Epic Games\UE_4.15\Engine\Source\Editor\ReferenceViewer\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\SceneDepthPickerMode\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\SceneOutliner\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\Sequencer\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\Sequencer\Private\DisplayNodes;g:\Epic Games\UE_4.15\Engine\Source\Editor\Sequencer\Private\Tools;g:\Epic Games\UE_4.15\Engine\Source\Editor\SequenceRecorder\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\SequenceRecorder\Private\Sections;g:\Epic Games\UE_4.15\Engine\Source\Editor\SequenceRecorderSections\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\SequencerWidgets\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\SkeletalMeshEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\SkeletonEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\SourceControlWindows\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\StaticMeshEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\StatsViewer\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\StatsViewer\Private\StatsEntries;g:\Epic Games\UE_4.15\Engine\Source\Editor\StatsViewer\Private\StatsPages;g:\Epic Games\UE_4.15\Engine\Source\Editor\SwarmInterface\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\TextureAlignMode\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\TextureEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\TextureEditor\Private\Customizations;g:\Epic Games\UE_4.15\Engine\Source\Editor\TextureEditor\Private\Models;g:\Epic Games\UE_4.15\Engine\Source\Editor\TextureEditor\Private\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Editor\TranslationEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\Animation;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\BlueprintModes;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\Customizations;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\Designer;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\Details;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\DragDrop;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\Extensions;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\Hierarchy;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\Nodes;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\Palette;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\Settings;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\TabFactory;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\Templates;g:\Epic Games\UE_4.15\Engine\Source\Editor\UMGEditor\Private\Utility;g:\Epic Games\UE_4.15\Engine\Source\Editor\UndoHistory\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\UndoHistory\Private\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Analytics;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Animation;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\AutoReimport;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Commandlets;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Dialogs;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\DragAndDrop;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Editor;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Factories;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Fbx;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Features;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Kismet2;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Layers;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Lightmass;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Localization;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\MaterialEditor;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Settings;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\StaticLightingSystem;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\ThumbnailRendering;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Private\Toolkits;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEdMessages\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\UserFeedback\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\ViewportInteraction\Gizmo;g:\Epic Games\UE_4.15\Engine\Source\Editor\ViewportSnapping\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\VREditor\Gizmo;g:\Epic Games\UE_4.15\Engine\Source\Editor\VREditor\Interactables;g:\Epic Games\UE_4.15\Engine\Source\Editor\VREditor\Teleporter;g:\Epic Games\UE_4.15\Engine\Source\Editor\VREditor\UI;g:\Epic Games\UE_4.15\Engine\Source\Editor\WorkspaceMenuStructure\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\WorldBrowser\Private;g:\Epic Games\UE_4.15\Engine\Source\Editor\WorldBrowser\Private\StreamingLevels;g:\Epic Games\UE_4.15\Engine\Source\Editor\WorldBrowser\Private\Tiles;g:\Epic Games\UE_4.15\Engine\Source\Programs\UnrealHeaderTool\Private;g:\Epic Games\UE_4.15\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers;g:\Epic Games\UE_4.15\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile;g:\Epic Games\UE_4.15\Engine\Source\Runtime\GameLiveStreaming;g:\Epic Games\UE_4.15\Engine\Source\Runtime\ActorSequence\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Advertising\Advertising\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Advertising\Android\AndroidAdvertising\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Advertising\IOS\IOSAdvertising\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\Actions;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\BehaviorTree;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\Blueprint;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\DataProviders;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\GameplayDebugger;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\HotSpots;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\Navigation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\Perception;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\Tasks;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Blackboard;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Composites;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Decorators;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Services;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Tasks;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Contexts;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Generators;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Items;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Tests;g:\Epic Games\UE_4.15\Engine\Source\Runtime\ALAudio\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Analytics\Analytics\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Analytics\AnalyticsET\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Analytics\AnalyticsSwrve\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Analytics\AnalyticsVisualEditing\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Analytics\QoSReporter\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Android\AndroidAudio\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Android\AndroidLocalNotification\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Android\AndroidRuntimeSettings\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AnimGraphRuntime\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AnimGraphRuntime\Private\AnimNodes;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AnimGraphRuntime\Private\BoneControllers;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AppFramework\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AppFramework\Private\Framework\Testing;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AppFramework\Private\Widgets\Colors;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AppFramework\Private\Widgets\Testing;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AppFramework\Private\Widgets\Workflow;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Apple\MetalRHI\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AssetRegistry\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AudioMixer\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AudioMixer\Private\DSP;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AudioMixer\Private\Effects;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AutomationMessages\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AutomationWorker\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\BlueprintRuntime\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CEF3Utils\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CEF3Utils\Private\Mac;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CinematicCamera\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Android;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Apple;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Async;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Containers;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Delegates;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Features;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\GenericPlatform;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\HAL;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\HTML5;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Internationalization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\iOS;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Linux;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Logging;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Mac;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Math;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Misc;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Modules;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\ProfilingDebugging;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Serialization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Stats;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\UObject;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Containers\Algo;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\HAL\Allocators;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\ProfilingDebugging\Windows;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Serialization\Csv;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Tests\Async;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Tests\HAL;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Tests\Internationalization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Tests\Math;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Private\Tests\Misc;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject\Private\Blueprint;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject\Private\Internationalization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject\Private\Misc;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject\Private\Serialization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject\Private\Templates;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject\Private\UObject;g:\Epic Games\UE_4.15\Engine\Source\Runtime\D3D12RHI\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\D3D12RHI\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Runtime\DatabaseSupport\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\EmptyRHI\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\AI;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Animation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Atmosphere;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Camera;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Collision;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Commandlets;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Components;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Curves;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Debug;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\DeviceProfiles;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\EdGraph;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\EditorFramework;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Engine;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\GameFramework;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Internationalization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Kismet;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Layers;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Materials;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\MeshVertexPainter;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\PacketHandlers;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Particles;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Performance;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\PhysicsEngine;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\PhysicsEngine2D;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Rendering;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\ShaderCompiler;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Slate;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Streaming;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\UserInterface;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Vehicles;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\VisualLogger;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\AI\Navigation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\AI\Navigation\NavAreas;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\AI\Navigation\NavFilters;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Private\Tests\Internationalization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\EngineMessages\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\EngineSettings\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Foliage\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\FriendsAndChat\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\GameMenuBuilder\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\GameplayTags\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\GameplayTags\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Runtime\GameplayTasks\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\GameplayTasks\Private\Tasks;g:\Epic Games\UE_4.15\Engine\Source\Runtime\GeometryCache\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\HardwareSurvey\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\HeadMountedDisplay\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\HTML5\HTML5JS\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\HTML5\MapPakDownloader\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\HTML5\Simulator\HTML5Win32\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\HTTPChunkInstaller\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\ImageCore\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\ImageWrapper\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\InputCore\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\InputDevice\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Internationalization\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Internationalization\Private\Serialization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\IOS\IOSAudio\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\IOS\IOSLocalNotification\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\IOS\IOSRuntimeSettings\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\IOS\LaunchDaemonMessages\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\IPC\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Json\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Json\Private\Dom;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Json\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Runtime\JsonUtilities\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Landscape\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Landscape\Private\Materials;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Launch\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Launch\Private\Android;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Launch\Private\HTML5;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Launch\Private\IOS;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Launch\Private\Linux;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Launch\Private\Mac;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Launch\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Runtime\LevelSequence\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Linux\LinuxCommonStartup\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Mac\CoreAudio\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Mac\UnrealAudioCoreAudio\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MaterialShaderQualitySettings\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Media\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MediaAssets\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MediaAssets\Private\Assets;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MediaAssets\Private\Misc;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MediaUtils\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Messaging\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Messaging\Private\Bridge;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Messaging\Private\Bus;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MessagingRpc\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MoviePlayer\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MovieScene\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MovieScene\Private\Compilation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MovieScene\Private\Evaluation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MovieScene\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MovieSceneCapture\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MovieSceneTracks\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MovieSceneTracks\Private\Evaluation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MovieSceneTracks\Private\Sections;g:\Epic Games\UE_4.15\Engine\Source\Runtime\MovieSceneTracks\Private\Tracks;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Navmesh\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Navmesh\Private\DebugUtils;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Navmesh\Private\Detour;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Navmesh\Private\DetourCrowd;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Navmesh\Private\DetourTileCache;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Navmesh\Private\Recast;g:\Epic Games\UE_4.15\Engine\Source\Runtime\NetworkFile\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\NetworkFileSystem\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Networking\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Networking\Private\IPv4;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Networking\Private\Steam;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Networking\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Runtime\NetworkReplayStreaming\HttpNetworkReplayStreaming\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\NetworkReplayStreaming\InMemoryNetworkReplayStreaming\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\NetworkReplayStreaming\NullNetworkReplayStreaming\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Niagara\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\NullDrv\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\BuildPatchServices\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\BuildPatchServices\Private\Core;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\BuildPatchServices\Private\Generation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\BuildPatchServices\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Private\Android;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Private\Apple;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Private\Curl;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Private\GenericPlatform;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Private\HTML5;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Private\Linux;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\ICMP\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\ICMP\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\ImageDownload\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\SSL\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\Stomp\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\Voice\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\Voice\Private\Linux;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\Voice\Private\Mac;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\Voice\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\WebSockets\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\WebSockets\Private\Lws;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\XMPP\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\XMPP\Private\XmppJingle;g:\Epic Games\UE_4.15\Engine\Source\Runtime\OpenGLDrv\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\OpenGLDrv\Private\Android;g:\Epic Games\UE_4.15\Engine\Source\Runtime\OpenGLDrv\Private\HTML5;g:\Epic Games\UE_4.15\Engine\Source\Runtime\OpenGLDrv\Private\IOS;g:\Epic Games\UE_4.15\Engine\Source\Runtime\OpenGLDrv\Private\Linux;g:\Epic Games\UE_4.15\Engine\Source\Runtime\OpenGLDrv\Private\Mac;g:\Epic Games\UE_4.15\Engine\Source\Runtime\OpenGLDrv\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\AsymmetricEncryption\RSAEncryptionHandlerComponent\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\EncryptionHandlerComponent\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\AESBlockEncryptor\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\BlockEncryptionHandlerComponent\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\BlowFishBlockEncryptor\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\TwoFishBlockEncryptor\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\XORBlockEncryptor\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\StreamEncryption\StreamEncryptionHandlerComponent\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\StreamEncryption\XORStreamEncryptor\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\PacketHandler\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PakFile\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PerfCounters\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PhysXFormats\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Portal\LauncherCheck\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Portal\Messages\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Portal\Proxies\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Portal\Proxies\Private\Account;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Portal\Proxies\Private\Application;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Portal\Rpc\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Portal\Services\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Projects\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\RenderCore\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Renderer\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Renderer\Private\CompositionLighting;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Renderer\Private\PostProcess;g:\Epic Games\UE_4.15\Engine\Source\Runtime\RHI\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\RHI\Private\Android;g:\Epic Games\UE_4.15\Engine\Source\Runtime\RHI\Private\Apple;g:\Epic Games\UE_4.15\Engine\Source\Runtime\RHI\Private\HTML5;g:\Epic Games\UE_4.15\Engine\Source\Runtime\RHI\Private\Linux;g:\Epic Games\UE_4.15\Engine\Source\Runtime\RHI\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Runtime\RuntimeAssetCache\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SandboxFile\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Serialization\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Serialization\Private\Backends;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Serialization\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SessionMessages\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SessionServices\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\ShaderCore\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Framework\Application;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Framework\Commands;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Framework\Docking;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Framework\Layout;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Framework\MetaData;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Framework\MultiBox;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Framework\Notifications;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Framework\Styling;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Framework\Text;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Framework\MultiBox\Mac;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Framework\Text\Android;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Framework\Text\IOS;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Widgets\Colors;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Widgets\Docking;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Widgets\Images;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Widgets\Input;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Widgets\LayerManager;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Widgets\Layout;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Widgets\Notifications;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Widgets\Text;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Private\Widgets\Views;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Animation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Application;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Brushes;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Fonts;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Input;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Layout;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Logging;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Rendering;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Sound;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Stats;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Styling;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Textures;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Types;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Private\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateNullRenderer\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateRHIRenderer\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Sockets\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Sockets\Private\Android;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Sockets\Private\BSDIPv6Sockets;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Sockets\Private\BSDSockets;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Sockets\Private\IOS;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Sockets\Private\Linux;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Sockets\Private\Mac;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Sockets\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Sockets\Private\HTML5\Device;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Sockets\Private\HTML5\Simulator;g:\Epic Games\UE_4.15\Engine\Source\Runtime\StreamingFile\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\StreamingPauseRendering\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SynthBenchmark\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Toolbox\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\UE4Game\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\UMG\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\UMG\Private\Animation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\UMG\Private\Binding;g:\Epic Games\UE_4.15\Engine\Source\Runtime\UMG\Private\Blueprint;g:\Epic Games\UE_4.15\Engine\Source\Runtime\UMG\Private\Components;g:\Epic Games\UE_4.15\Engine\Source\Runtime\UMG\Private\Slate;g:\Epic Games\UE_4.15\Engine\Source\Runtime\UnrealAudio\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\UnrealAudio\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Runtime\UtilityShaders\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\VectorVM\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\VectorVM\Private\Tests;g:\Epic Games\UE_4.15\Engine\Source\Runtime\VulkanRHI\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\WebBrowser\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\WebBrowser\Private\Android;g:\Epic Games\UE_4.15\Engine\Source\Runtime\WebBrowser\Private\CEF;g:\Epic Games\UE_4.15\Engine\Source\Runtime\WebBrowser\Private\IOS;g:\Epic Games\UE_4.15\Engine\Source\Runtime\WidgetCarousel\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Windows\AudioMixerXAudio2\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Windows\D3D11RHI\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Windows\D3D11RHI\Private\Windows;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Windows\UnrealAudioWasapi\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Windows\UnrealAudioXAudio2\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Windows\XAudio2\Private;g:\Epic Games\UE_4.15\Engine\Source\Runtime\XmlParser\Private;g:\Epic Games\UE_4.15\Engine\Source\ThirdParty\libJPG;</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);UE_EDITOR=1;IS_PROGRAM=0;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=1;WITH_UNREAL_DEVELOPER_TOOLS=1;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=1;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=0;WITH_EDITOR=1;WITH_SERVER_CODE=1;WITH_CEF3=1;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Editor;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UE4Editor-Work.dll";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;DEPRECATED_FORGAME=DEPRECATED;WORK_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;WITH_PHYSX=1;WITH_APEX=1;WITH_RUNTIME_PHYSICS_COOKING=1;WITH_BOX2D=1;WITH_RECAST=1;ENGINE_API=;JSON_API=;WITH_FREETYPE=1;SLATECORE_API=;INPUTCORE_API=;SLATE_API=;MESSAGING_API=;RENDERCORE_API=;RHI_API=;SHADERCORE_API=;ASSETREGISTRY_API=;ENGINEMESSAGES_API=;ENGINESETTINGS_API=;SYNTHBENCHMARK_API=;RENDERER_API=;GAMEPLAYTAGS_API=;WITH_GAMEPLAY_DEBUGGER=1;AIMODULE_API=;GAMEPLAYTASKS_API=;DATABASESUPPORT_API=;PACKETHANDLER_API=;RELIABILITYHANDLERCOMPONENT_API=;HARDWARESURVEY_API=;UNREALED_API=;BSPMODE_API=;DIRECTORYWATCHER_API=;DOCUMENTATION_API=;PROJECTS_API=;SANDBOXFILE_API=;EDITORSTYLE_API=;SOURCECONTROL_API=;UNREALEDMESSAGES_API=;GAMEPLAYDEBUGGER_API=;BLUEPRINTGRAPH_API=;HTTP_PACKAGE=1;HTTP_API=;UNREALAUDIO_API=;FUNCTIONALTESTING_API=;AUTOMATIONCONTROLLER_API=;INTERNATIONALIZATION_API=;AUDIOEDITOR_API=;LEVELEDITOR_API=;SETTINGS_API=;USERFEEDBACK_API=;INTROTUTORIALS_API=;HEADMOUNTEDDISPLAY_API=;VREDITOR_API=;LANDSCAPE_API=;PROPERTYEDITOR_API=;ACTORPICKERMODE_API=;SCENEDEPTHPICKERMODE_API=;DETAILCUSTOMIZATIONS_API=;CLASSVIEWER_API=;GRAPHEDITOR_API=;CONTENTBROWSER_API=;WITH_OGGVORBIS=1;XAUDIO2_API=;AUDIOMIXERXAUDIO2_API=;UNREALAUDIOXAUDIO2_API=;COLLECTIONMANAGER_API=;ADDCONTENTDIALOG_API=;MESHUTILITIES_API=;KISMET_API=;NETWORKREPLAYSTREAMING_API=</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);g:\Epic Games\UE_4.15\Engine\Source;..\..\Source;..\Build\Win64\UE4Editor\Inc\Work;..\..\Source\Work;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Internationalization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Async;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Concurrency;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Containers;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Delegates;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\GenericPlatform;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\HAL;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Logging;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Math;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Misc;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Modules;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\ProfilingDebugging;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Serialization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Serialization\Csv;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Stats;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Templates;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\UObject;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Windows;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Core;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject\Public;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject\Public\Blueprint;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject\Public\Internationalization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject\Public\Misc;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject\Public\Serialization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject\Public\Templates;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject\Public\UObject;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;g:\Epic Games\UE_4.15\Engine\Source\Runtime\CoreUObject;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Classes;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\AI;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\AI\Navigation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\Animation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\Curves;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\EdGraph;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\Features;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\Internationalization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\Net;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\PacketHandlers;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\Performance;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\Physics;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\Rendering;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\Slate;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\Tests;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Public\VisualLogger;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Engine;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Json\Public;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Json\Public\Dom;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Json\Public\Policies;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Json\Public\Serialization;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Json;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Animation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Application;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Brushes;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Fonts;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Input;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Layout;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Logging;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Rendering;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Sound;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Stats;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Styling;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Textures;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Types;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore\Public\Widgets;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SlateCore;g:\Epic Games\UE_4.15\Engine\Source\Runtime\InputCore\Classes;g:\Epic Games\UE_4.15\Engine\Source\Runtime\InputCore\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;g:\Epic Games\UE_4.15\Engine\Source\Runtime\InputCore;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Framework;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Framework\Application;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Framework\Commands;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Framework\Docking;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Framework\Layout;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Framework\MetaData;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Framework\Notifications;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Framework\Styling;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Framework\Text;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Framework\Text\Android;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Framework\Text\IOS;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Framework\Views;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Widgets;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Widgets\Colors;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Widgets\Docking;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Widgets\Images;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Widgets\Input;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Widgets\Layout;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Widgets\Text;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate\Public\Widgets\Views;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Slate;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Messaging\Public;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Messaging\Public\Deprecated;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Messaging\Public\Helpers;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Messaging;g:\Epic Games\UE_4.15\Engine\Source\Runtime\RenderCore\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;g:\Epic Games\UE_4.15\Engine\Source\Runtime\RenderCore;g:\Epic Games\UE_4.15\Engine\Source\Runtime\RHI\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;g:\Epic Games\UE_4.15\Engine\Source\Runtime\RHI;g:\Epic Games\UE_4.15\Engine\Source\Runtime\ShaderCore\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ShaderCore;g:\Epic Games\UE_4.15\Engine\Source\Runtime\ShaderCore;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AssetRegistry\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AssetRegistry;g:\Epic Games\UE_4.15\Engine\Source\Runtime\EngineMessages\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;g:\Epic Games\UE_4.15\Engine\Source\Runtime\EngineMessages;g:\Epic Games\UE_4.15\Engine\Source\Runtime\EngineSettings\Classes;g:\Epic Games\UE_4.15\Engine\Source\Runtime\EngineSettings\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;g:\Epic Games\UE_4.15\Engine\Source\Runtime\EngineSettings;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SynthBenchmark\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SynthBenchmark;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Renderer\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Renderer;g:\Epic Games\UE_4.15\Engine\Source\Runtime\GameplayTags\Classes;g:\Epic Games\UE_4.15\Engine\Source\Runtime\GameplayTags\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;g:\Epic Games\UE_4.15\Engine\Source\Runtime\GameplayTags;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Public;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule\Classes;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AIModule;g:\Epic Games\UE_4.15\Engine\Source\Runtime\GameplayTasks\Classes;g:\Epic Games\UE_4.15\Engine\Source\Runtime\GameplayTasks\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;g:\Epic Games\UE_4.15\Engine\Source\Runtime\GameplayTasks;g:\Epic Games\UE_4.15\Engine\Source\Runtime\DatabaseSupport\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DatabaseSupport;g:\Epic Games\UE_4.15\Engine\Source\Runtime\DatabaseSupport;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\PacketHandler;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ReliabilityHandlerComponent;g:\Epic Games\UE_4.15\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent;g:\Epic Games\UE_4.15\Engine\Source\Runtime\HardwareSurvey\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HardwareSurvey;g:\Epic Games\UE_4.15\Engine\Source\Runtime\HardwareSurvey;g:\Epic Games\UE_4.15\Engine\Source\Programs\UnrealLightmass\Public;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Classes;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Public;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Public\AutoReimport;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Public\Commandlets;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Public\Dialogs;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Public\Features;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Public\Kismet2;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Public\Layers;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Public\Localization;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Public\Settings;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Public\Tests;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd\Public\Toolkits;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEd;g:\Epic Games\UE_4.15\Engine\Source\Editor\BspMode\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BspMode;g:\Epic Games\UE_4.15\Engine\Source\Editor\BspMode;g:\Epic Games\UE_4.15\Engine\Source\Developer\DirectoryWatcher\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;g:\Epic Games\UE_4.15\Engine\Source\Developer\DirectoryWatcher;g:\Epic Games\UE_4.15\Engine\Source\Editor\Documentation\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;g:\Epic Games\UE_4.15\Engine\Source\Editor\Documentation;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Projects\Public;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Projects\Public\Interfaces;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Projects;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SandboxFile\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;g:\Epic Games\UE_4.15\Engine\Source\Runtime\SandboxFile;g:\Epic Games\UE_4.15\Engine\Source\Editor\EditorStyle\Public;g:\Epic Games\UE_4.15\Engine\Source\Editor\EditorStyle\Public\Classes;g:\Epic Games\UE_4.15\Engine\Source\Editor\EditorStyle\Public\Interfaces;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;g:\Epic Games\UE_4.15\Engine\Source\Editor\EditorStyle;g:\Epic Games\UE_4.15\Engine\Source\Developer\SourceControl\Public;g:\Epic Games\UE_4.15\Engine\Source\Developer\SourceControl\Public\Tests;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;g:\Epic Games\UE_4.15\Engine\Source\Developer\SourceControl;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEdMessages\Classes;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEdMessages\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;g:\Epic Games\UE_4.15\Engine\Source\Editor\UnrealEdMessages;g:\Epic Games\UE_4.15\Engine\Source\Developer\GameplayDebugger\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger;g:\Epic Games\UE_4.15\Engine\Source\Developer\GameplayDebugger;g:\Epic Games\UE_4.15\Engine\Source\Editor\BlueprintGraph\Classes;g:\Epic Games\UE_4.15\Engine\Source\Editor\BlueprintGraph\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;g:\Epic Games\UE_4.15\Engine\Source\Editor\BlueprintGraph;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Public;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Public\Android;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Public\Apple;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Public\HTML5;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Public\Linux;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP\Public\Windows;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Online\HTTP;g:\Epic Games\UE_4.15\Engine\Source\Runtime\UnrealAudio\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;g:\Epic Games\UE_4.15\Engine\Source\Runtime\UnrealAudio;g:\Epic Games\UE_4.15\Engine\Source\Developer\FunctionalTesting\Classes;g:\Epic Games\UE_4.15\Engine\Source\Developer\FunctionalTesting\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting;g:\Epic Games\UE_4.15\Engine\Source\Developer\FunctionalTesting;g:\Epic Games\UE_4.15\Engine\Source\Developer\AutomationController\Public;g:\Epic Games\UE_4.15\Engine\Source\Developer\AutomationController\Public\Interfaces;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AutomationController;g:\Epic Games\UE_4.15\Engine\Source\Developer\AutomationController;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Internationalization\Public;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Internationalization\Public\Serialization;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Internationalization;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Internationalization;g:\Epic Games\UE_4.15\Engine\Source\Editor\AudioEditor\Classes;g:\Epic Games\UE_4.15\Engine\Source\Editor\AudioEditor\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor;g:\Epic Games\UE_4.15\Engine\Source\Editor\AudioEditor;g:\Epic Games\UE_4.15\Engine\Source\Editor\LevelEditor\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;g:\Epic Games\UE_4.15\Engine\Source\Editor\LevelEditor;g:\Epic Games\UE_4.15\Engine\Source\Developer\Settings\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;g:\Epic Games\UE_4.15\Engine\Source\Developer\Settings;g:\Epic Games\UE_4.15\Engine\Source\Editor\UserFeedback\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UserFeedback;g:\Epic Games\UE_4.15\Engine\Source\Editor\UserFeedback;g:\Epic Games\UE_4.15\Engine\Source\Editor\IntroTutorials\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;g:\Epic Games\UE_4.15\Engine\Source\Editor\IntroTutorials;g:\Epic Games\UE_4.15\Engine\Source\Runtime\HeadMountedDisplay\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay;g:\Epic Games\UE_4.15\Engine\Source\Runtime\HeadMountedDisplay;g:\Epic Games\UE_4.15\Engine\Source\Editor\VREditor\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VREditor;g:\Epic Games\UE_4.15\Engine\Source\Editor\VREditor;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Landscape\Classes;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Landscape\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Landscape;g:\Epic Games\UE_4.15\Engine\Source\Editor\PropertyEditor\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyEditor;g:\Epic Games\UE_4.15\Engine\Source\Editor\PropertyEditor;g:\Epic Games\UE_4.15\Engine\Source\Editor\ActorPickerMode\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ActorPickerMode;g:\Epic Games\UE_4.15\Engine\Source\Editor\ActorPickerMode;g:\Epic Games\UE_4.15\Engine\Source\Editor\SceneDepthPickerMode\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SceneDepthPickerMode;g:\Epic Games\UE_4.15\Engine\Source\Editor\SceneDepthPickerMode;g:\Epic Games\UE_4.15\Engine\Source\Editor\DetailCustomizations\Public;g:\Epic Games\UE_4.15\Engine\Source\Editor\DetailCustomizations\Public\Customizations;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DetailCustomizations;g:\Epic Games\UE_4.15\Engine\Source\Editor\DetailCustomizations;g:\Epic Games\UE_4.15\Engine\Source\Editor\ClassViewer\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClassViewer;g:\Epic Games\UE_4.15\Engine\Source\Editor\ClassViewer;g:\Epic Games\UE_4.15\Engine\Source\Editor\GraphEditor\Public;g:\Epic Games\UE_4.15\Engine\Source\Editor\GraphEditor\Public\KismetNodes;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;g:\Epic Games\UE_4.15\Engine\Source\Editor\GraphEditor;g:\Epic Games\UE_4.15\Engine\Source\Editor\ContentBrowser\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser;g:\Epic Games\UE_4.15\Engine\Source\Editor\ContentBrowser;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Windows\XAudio2\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Windows\XAudio2;g:\Epic Games\UE_4.15\Engine\Source\Runtime\AudioMixer\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerXAudio2;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Windows\AudioMixerXAudio2;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudioXAudio2;g:\Epic Games\UE_4.15\Engine\Source\Runtime\Windows\UnrealAudioXAudio2;g:\Epic Games\UE_4.15\Engine\Source\Developer\CollectionManager\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;g:\Epic Games\UE_4.15\Engine\Source\Developer\CollectionManager;g:\Epic Games\UE_4.15\Engine\Source\Editor\AddContentDialog\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;g:\Epic Games\UE_4.15\Engine\Source\Editor\AddContentDialog;g:\Epic Games\UE_4.15\Engine\Source\Developer\MeshUtilities\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshUtilities;g:\Epic Games\UE_4.15\Engine\Source\Developer\MeshUtilities;g:\Epic Games\UE_4.15\Engine\Source\Editor\Kismet\Classes;g:\Epic Games\UE_4.15\Engine\Source\Editor\Kismet\Public;g:\Epic Games\UE_4.15\Engine\Source\Editor\Kismet\Public\Nodes;g:\Epic Games\UE_4.15\Engine\Source\Editor\Kismet\Public\Profiler;g:\Epic Games\UE_4.15\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;g:\Epic Games\UE_4.15\Engine\Source\Editor\Kismet;g:\Epic Games\UE_4.15\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;g:\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkReplayStreaming;g:\Epic Games\UE_4.15\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming;G:\devC\VC\INCLUDE;G:\devC\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
